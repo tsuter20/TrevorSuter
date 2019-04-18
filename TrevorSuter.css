@@ -1,10 +1,20 @@
+body {
+    background-color: #F8F8F8;
+    margin: 0;
+    padding: 0;
+}
+
 #mainHeading {
     text-align: center;
     font-size: 56px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #topNav {
     text-align: center;
+    background: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #topNav ul {
@@ -20,10 +30,71 @@
     font-size: 20px;
     margin-left: 15px;
     margin-right: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #topNav li a {
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 20px;
     text-decoration: none;
+    color: white;
 }
- 
+
+#topNav li a:hover {
+    color: gray;
+}
+
+#quoteGenerator {
+    background-image: url("quotebackground.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#quote {
+    margin: 0;
+    float: right;
+    position: relative;
+    top: 40px;
+    right: 5px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+#quoteButton {
+    position: relative;
+    top: 100px;
+    left: 1250px;
+    background-color: white;
+    border: none;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.biography {
+    margin-left: 415px;
+}
+
+#aboutMeContent {
+    padding: 20px;
+    overflow: hidden;
+}
+
+.aboutMeText {
+    display: inline;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+#contactInfo {
+    margin-top: 100px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
